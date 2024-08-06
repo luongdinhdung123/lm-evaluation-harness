@@ -21,6 +21,12 @@ def _doc_to_choice(doc):
     
 def _doc_to_target(doc):
     return doc["gold"]
+
+def _should_or_not_decontamination():
+    return True
+
+def _doc_to_decontamination_query(doc):
+    return doc["question"]
     
 def list_fewshot_samples() -> list[dict]:
     five_examples = [
