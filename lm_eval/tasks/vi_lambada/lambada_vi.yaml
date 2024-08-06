@@ -16,4 +16,6 @@ process_docs: !function utils.process_docs
 doc_to_text: !function utils._doc_to_text
 doc_to_target: !function utils._doc_to_target
 metric_list:
+  - metric: acc
   - metric: perplexity
+  
