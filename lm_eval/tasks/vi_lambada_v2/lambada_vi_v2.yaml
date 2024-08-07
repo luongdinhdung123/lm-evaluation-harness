@@ -1,0 +1,2 @@
+task: lambada_vi_v2
+class: !function task.Lambada_vi
