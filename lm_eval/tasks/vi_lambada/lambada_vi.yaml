@@ -17,5 +17,10 @@ doc_to_text: !function utils._doc_to_text
 doc_to_target: !function utils._doc_to_target
 metric_list:
   - metric: acc
+    aggregation: mean
+    higher_is_better: true
   - metric: perplexity
+    aggregation: perplexity
+    higher_is_better: false
+
   

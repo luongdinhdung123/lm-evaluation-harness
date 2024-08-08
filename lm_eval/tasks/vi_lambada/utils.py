@@ -12,7 +12,7 @@ def _doc_to_text(doc):
     return doc["context"]
     
 def _doc_to_target(doc):
-    return doc["target_word"]
+    return " " + doc["target_word"]
 
 def _should_or_not_decontamination():
     return True
