@@ -27,32 +27,34 @@ def _should_or_not_decontamination():
 
 def _doc_to_decontamination_query(doc):
     return doc["question"]
-    
+
+#tu trang 1 - 23: Dia ly
+#cau hoi dau tien trang 1, 2, 3, 4, 5
 def list_fewshot_samples() -> list[dict]:
     five_examples = [
         {
-        "question": "Thủy điện Vĩnh Sơn ở tỉnh nào?",
-        "gold": "Bình Định",
+        "question": "Biển Đông mang lại nguồn nhiệt ẩm dồi dào, lượng mưa lớn cho nước ta chủ yếu do biển Đông có đặc điểm gì?",
+        "gold": "Nóng, ẩm và chịu ảnh hưởng của gió mùa",
         "few_shot": "1",
         },
         {
-        "question": "Nghị định thư Kyoto là nghị định về vấn đề gì?",
-        "gold": "Biến đổi khí hậu",
+        "question": "Thuận lợi chủ yếu để phát triển công nghiệp ở Đồng bằng sông Hồng là gì?",
+        "gold": "có nhiều lao động kỹ thuật, cơ sở hạ tầng khá tốt",
         "few_shot": "1",
         },
         {
-        "question": "Đầu tháng 9/1858, sự kiện nào đánh dấu sự bắt đầu của cuộc chiến tranh xâm lược của thực dân Pháp vào Việt Nam?",
-        "gold": "Nổ súng tiến công Đà Nẵng",
+        "question": "Duyên hải Nam Trung Bộ có nhiều điều kiện thuận lợi để xây dựng các cảng nước sâu, trong đó chủ yếu là do ?",
+        "gold": "bờ biển có nhiều vũng vịnh, thềm lục địa sâu, ít bị sa bồi",
         "few_shot": "1",
         },
         {
-        "question": "Đầu tháng 9/1858, sự kiện nào đánh dấu sự bắt đầu của cuộc chiến tranh xâm lược của thực dân Pháp vào Việt Nam?",
-        "gold": "Pháp",
+        "question": "Ý nghĩa chủ yếu của phát triển du lịch ở Trung du và miền núi Bắc Bộ là gì?",
+        "gold": "phát huy tiềm năng, tăng thu nhập vùng, nâng cao đời sống nhân dân,",
         "few_shot": "1",
         },
         {
-        "question": "Lịch Công nguyên được phát triển từ năm nào trước công nguyên?",
-        "gold": "46",
+        "question": "Năng suất lúa nước ta tăng nhanh là do nguyên nhân chính nào?",
+        "gold": "Áp dụng các biện pháp thâm canh",
         "few_shot": "1",
         },
     ]
