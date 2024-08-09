@@ -28,7 +28,7 @@ def _should_or_not_decontamination():
 def _doc_to_decontamination_query(doc):
     return doc["question"]
 
-#
+#tu trang 24 - giua trang 77: Lich su
 #cau hoi dau tien trang 23, 24, 25, 26, 27
 def list_fewshot_samples() -> list[dict]:
     five_examples = [
