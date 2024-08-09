@@ -1,4 +1,4 @@
-task: exams_sinhoc_vi
+task: exams_sinhhoc_vi
 dataset_path: vlsp-2023-vllm/exams_vi
 dataset_name: null
 dataset_kwargs: null
