@@ -4,13 +4,13 @@ This project, focuses on evaluating the performance of Large Language Model (LLM
 
 You could use your Google Colab, Kaggle, or even your own computer (with GPU for faster computation) in order to run this project!
 
-1. **Clone the github repository** `git clone https://github.com/luongdinhdung123/lm-evaluation-harness`. 
+1. **Clone the github repository:** `git clone https://github.com/luongdinhdung123/lm-evaluation-harness`. 
 
-2. **Install the required libraries**
+2. **Install the required libraries:**
     - Open the folder: `cd lm-evaluation-harness`
     - Install the required libraries: `!pip install -e .`
 
-3. **Run the evaluation for your models**
+3. **Run the evaluation for your models:**
 
 - Here is how to run the evaluation of a LLM model for vi_wikipediaqa benchmark on Kaggle:
 ```bash
