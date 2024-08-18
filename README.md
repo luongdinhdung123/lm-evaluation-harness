@@ -18,6 +18,7 @@ lm_eval \
 --model hf \
 --model_args pretrained=pretrained=vinai/PhoGPT-4B,trust_remote_code=True \
 --tasks wikipediaqa_vi \
+--num_fewshot 5 \
 --device cuda:0 \
 --output_path /kaggle/working/lm-evaluation-harness \
 --log_samples \
@@ -30,6 +31,7 @@ lm_eval \
 --model hf \
 --model_args pretrained=pretrained=vinai/PhoGPT-4B,trust_remote_code=True \
 --tasks lambada_vi \
+--num_fewshot 5 \
 --device cuda:0 \
 --output_path /kaggle/working/lm-evaluation-harness \
 --log_samples \
@@ -41,6 +43,7 @@ lm_eval \
 --model hf \
 --model_args pretrained=pretrained=vinai/PhoGPT-4B,trust_remote_code=True \
 --tasks comprehension_vi \
+--num_fewshot 5 \
 --device cuda:0 \
 --output_path /kaggle/working/lm-evaluation-harness \
 --log_samples \
@@ -52,6 +55,7 @@ lm_eval \
 --model hf \
 --model_args pretrained=pretrained=vinai/PhoGPT-4B,trust_remote_code=True \
 --tasks exams_diali_vi, exams_lichsu_vi, exams_hoahoc_vi, exams_sinhhoc_vi, exams_vatli_vi, exams_toanhoc_vi, exams_vanhoc_vi \
+--num_fewshot 5 \
 --device cuda:0 \
 --output_path /kaggle/working/lm-evaluation-harness \
 --log_samples \
