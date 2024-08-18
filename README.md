@@ -8,11 +8,11 @@ You could use your Google Colab, Kaggle, or even your own computer (with GPU for
 
 2. **Install the required libraries:**
     - Open the folder: `cd lm-evaluation-harness`
-    - Install the required libraries: `!pip install -e .`
+    - Install the required libraries: `pip install -e .`
 
 3. **Run the evaluation for your models:**
 
-- Here is how to run the evaluation of a LLM model for vi_wikipediaqa benchmark on Kaggle:
+- Here is how to run the evaluation of a LLM model for vi_wikipediaqa benchmark on Kaggle (You should check your `output_path` if you run on other platforms):
 ```bash
 lm_eval \
 --model hf \
