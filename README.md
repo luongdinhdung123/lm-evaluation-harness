@@ -1,6 +1,6 @@
 # Few-shot evaluation
 
-This project, focuses on evaluating the performance of Large Language Model (LLM) model with few-shot learning on some certain tasks (such as multiple-choice, sentence completement,... benchmarks). We implement 4 benchmarks: vi_lambada, vi_wikipediaqa, vi_comprehension, and vi_exams (with 7 subjects) from ViLLM paper, in order to test the performance of LLMs for Vietnamese dataset. Details will be included in the Reference links section below.
+This project, which is based on repository `EleutherAI/lm-evaluation-harness`, focuses on evaluating the performance of Large Language Model (LLM) model with few-shot learning on some certain tasks (such as multiple-choice, sentence completement,... benchmarks). We implement 4 benchmarks: vi_lambada, vi_wikipediaqa, vi_comprehension, and vi_exams (with 7 subjects) from ViLLM paper, in order to test the performance of LLMs for Vietnamese dataset. Details will be included in the Reference links section below.
 
 You could use your Google Colab, Kaggle, or even your own computer (with GPU for faster computation) in order to run this project!
 
